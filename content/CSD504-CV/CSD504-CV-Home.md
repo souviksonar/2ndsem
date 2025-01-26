@@ -6,6 +6,8 @@
 > [!note] Books
 > - [[Digital Image Processing.pdf]]
 > - [[Computer Vision - Algorithms and Applications 2nd Edition, Richard Szeliski.pdf]]
+> - [[Computer Vision - Algorithms and Applications 2nd Edition, Richard Szeliski 1.pdf]]
+> - [[Computer Vision - Algorithms and Applications 2nd Edition, Richard Szeliski 2.pdf]]
 
 
 > [!NOTE] Notes for Image Processing
