@@ -22,11 +22,11 @@
 # Tutorials
 ## Tutorial 1
 - [[ADBMS Tutorial 1.pdf]]
-#### Solution
-- [ ] ADBMS Tutorial 1 Solution (@2025-01-18)
+	- [[ADBMS Tut 1 Solution]]
 
 ## Tutorial 2
 - [[ADBMS Tut 2.pdf]]
+	- [[ADBMS Tut 2 Solution]]
 ## Tutorial 3
 - [[ADBMS Tut 3.pdf]]
 
@@ -42,5 +42,7 @@
 > - [[2.2 Query procesing.pdf]]
 > - [[8. Query Processing.pdf]]
 > - [[Ch 22. Parellel and Distributation.pdf]]
-- [[ADBMS Unit 2.1 Important Term]]
 
+- [[ADBMS Unit 2.1 Important Term]]
+- [[ADBMS Parellel and Distributation Short Notes]]
+- [[Parellel and Distributation Questions and answers]]
