@@ -1,11 +1,11 @@
 
-#### **What is Histogram Equalization?**
+## **What is Histogram Equalization?**
 
 *Histogram Equalization* is an image processing technique that aims to improve the contrast of an image by redistributing its pixel intensity values. It attempts to "spread out" the most frequent intensity values, effectively stretching the dynamic range of the image.
 
 ---
 
-#### **Why We Need Histogram Equalization**
+## **Why We Need Histogram Equalization**
 
 1. **Enhanced Contrast:** The primary reason is to improve the overall contrast of an image, making details more visible. Images with low contrast often appear washed out or too dark.
     
@@ -16,7 +16,7 @@
 4. **Correcting Uneven Lighting:** Equalization can help to mitigate the effects of uneven lighting conditions in an image.
 
 ---
-#### **Derivation of Histogram Equalization**
+## **Derivation of Histogram Equalization**
 
 | Pixel Value (r<sub>k</sub>) | Number of Pixels (n<sub>k</sub>) | Probability of r<sub>k</sub> (p<sub>r</sub>(r<sub>k</sub>)) | Cumulative Probability (P<sub>r</sub>(r<sub>k</sub>))                                                                     | Output Intensity (s<sub>k</sub>)                          |
 | :-------------------------- | :------------------------------- | :---------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------- |
@@ -38,7 +38,7 @@
 
 ---
 
-#### Example of histogram equalization
+### Example of histogram equalization
 
 Okay, let's combine all the steps of the histogram equalization process for the given image data into a single, comprehensive table:
 
@@ -98,14 +98,14 @@ Using the "Rounded s<sub>k</sub>" column, we replace the original pixel values:
 
 ---
 
-#### **Why This Transformation Works:**
+## **Why This Transformation Works:**
 
 The CDF represents the cumulative probability up to a certain intensity level. By using the CDF as the transformation, we are essentially mapping the intensity levels in a way that is proportional to their cumulative frequency. This tends to spread out the intensity values, particularly in regions where the original histogram has large peaks (high frequency of certain intensity values).
 
 ---
 
 
-#### **What is Entropy in Computer Vision?**
+## **What is Entropy in Computer Vision?**
 
 In computer vision, entropy is a measure of the randomness or information content in an image. It quantifies the average level of uncertainty associated with the pixel intensities.
 - **High Entropy:** An image with high entropy has a wide range of pixel intensities distributed relatively evenly. This often corresponds to images with high contrast and a lot of detail.
@@ -122,7 +122,7 @@ Where:
     
 ---
 
-#### **Effect of Entropy on Histogram Equalization**
+## **Effect of Entropy on Histogram Equalization**
 
 - **Entropy Increase:** Histogram equalization generally increases the entropy of an image. By spreading out the pixel intensities, it makes the distribution more uniform, leading to higher randomness and information content.
     
@@ -132,7 +132,7 @@ Where:
 ---
 
 
-#### **Why We Need Histogram Equalization?**
+## **Why We Need Histogram Equalization?**
 
 - **Contrast Enhancement:** The primary reason to use histogram equalization is to improve the contrast of an image, making details more visible, especially in images with low contrast or a narrow range of intensities.
 - **Visual Improvement:** It can make images more visually appealing and easier to interpret.
@@ -141,7 +141,7 @@ Where:
 - **Standardization:** It can be used to standardize images, making them more consistent across different datasets or acquisition conditions.
     
 
-#### **Why We Don't Need Histogram Equalization?**
+## **Why We Don't Need Histogram Equalization?**
 
 - **Already Good Contrast:** If an image already has good contrast and a wide range of intensities, histogram equalization might not provide significant improvement and could even degrade the quality.
 - **Noise Amplification:** In images with a lot of noise, histogram equalization can amplify the noise, making it more noticeable.
@@ -152,10 +152,8 @@ Where:
 - **Color Distortion:** When applied to color images, histogram equalization is often done independently on each color channel. This can lead to color shifts or distortions because the relationship between the channels might be altered.
 
 ---
-#### **Output Distribution of Transformation After Histogram Equalization**
+## **Output Distribution of Transformation After Histogram Equalization**
 
 Ideally, after histogram equalization, the output distribution of pixel intensities should be approximately uniform.
 - **Uniform Histogram:** The transformed histogram should be relatively flat, meaning that each intensity level has roughly the same number of pixels.
 - **Linear CDF:** The CDF of the equalized image should be approximately linear, indicating an even distribution of intensity values across the entire range.
-
----

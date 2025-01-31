@@ -1,5 +1,5 @@
 
-#### **What is a Histogram?**
+## What is a Histogram?
 
 A histogram is a graphical representation of the distribution of pixel intensities in an image.
 - **X-axis:** Represents the range of possible pixel values (e.g., 0-255 for an 8-bit grayscale image).
@@ -19,7 +19,7 @@ Imagine a grayscale image with mostly dark pixels. Its histogram would show a la
 
 
 ---
-#### **Properties of Histograms**
+## Properties of Histograms
 
 1. **Representation of Intensity Distribution:** A histogram fundamentally shows the distribution of pixel intensity values within an image. It tells you how many pixels fall within each range of intensity.
 2. **Bins:** Histograms divide the range of possible pixel values into intervals called "bins." The width of these bins can be adjusted, which affects the granularity of the histogram.
@@ -30,10 +30,10 @@ Imagine a grayscale image with mostly dark pixels. Its histogram would show a la
     - **Skewness:** A histogram skewed to the left means more dark pixels; skewed to the right means more bright pixels.
     - **Spread:** A wide histogram suggests high contrast, while a narrow one suggests low contrast.
 5. **Normalization:** Histograms can be normalized. In a normalized histogram, the sum of all bin values equals 1 (or 100%). This makes it easier to compare histograms of images with different sizes.
-6. **Cumulative Histogram:** A cumulative histogram is a variation where each bin's value represents the cumulative count of pixels up to that intensity level. It's useful for tasks like histogram equalization.
+6. **Cumulative Histogram:** A cumulative histogram is a variation where each bin's value represents the cumulative count of pixels up to that intensity level. It's useful for tasks like histogram equalization. 
 
 ---
-#### **3. Histogram Processing**
+## Histogram Processing
 
 Histogram processing involves modifying the histogram of an image to improve its contrast or enhance certain features. Common techniques include:
 

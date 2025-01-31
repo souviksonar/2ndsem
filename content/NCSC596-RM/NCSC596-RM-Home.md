@@ -9,3 +9,6 @@
 - [[1737354302_RM_04_(2).pdf]]
 - [[1737354324_RM_05_(1).pdf]]
 - [[1737354333_RM_06_(1).pdf]]
+- [[RM_07_(2).pdf]]
+- [[Numpy_Basics.pdf]]
+- [[Matplotlib_Basics.pdf]]

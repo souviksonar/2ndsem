@@ -4,6 +4,7 @@
 > [!NOTE] ADBMS Book
 > - [[Database System Concepts 7.pdf]]
 > - [[Book Solution of ADBMS]]
+> - [[19. Distributed Databases.pdf]]
 
 > [!NOTE] UaNotes
 > - [[1 Database Management System - Introduction to DBMS.pdf]]
@@ -42,9 +43,18 @@
 > - [[2.1 Indexing.pdf]]
 > - [[2.2 Query procesing.pdf]]
 > - [[8. Query Processing.pdf]]
-> - [[Ch 22. Parellel and Distributation.pdf]]
+> - 
 
 - [[ADBMS Unit 1 Short Notes]]
 - [[ADBMS Unit 2.1 Important Term]]
+
+
+
+> [!danger] Unit 3 & 4
+> - [[ADBMS Parellel Database.pdf]]
+> - [[Distributed Database System_compressed.pdf]]
+> 	refer: [[19. Distributed Databases.pdf]] 
+^05ae21
+
 - [[ADBMS Parellel and Distributation Short Notes]]
 - [[Parellel and Distributation Questions and answers]]

@@ -24,7 +24,6 @@
 ## Tutorial 3
 - [[AGT Tutorial 3.pdf]]
 
-
 # Notes
 
 > [!danger] Unit1
