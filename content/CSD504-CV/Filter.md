@@ -25,50 +25,28 @@ Filters are fundamental in image processing and computer vision, used for:
 
 ### A. Linear Filters
 
-*   **Definition:** Perform a **weighted sum** of pixel values in the neighborhood defined by the kernel.
-    *   Output pixel = Linear combination of input pixel values.
-*   **Properties:**
-    *   Computationally efficient
-    *   Easy to understand and implement
-*   **Subtypes:**
+* **Definition:** Perform a **weighted sum** of pixel values in the neighborhood defined by the kernel.
+   Output pixel = Linear combination of input pixel values.
+* **Properties:**
+   Computationally efficient
+   Easy to understand and implement
+* **Subtypes:**
 
     1. **Smoothing/Blurring Filters:**
 
-        *   **Purpose:**
-            *   Reduce noise
-            *   Smooth out edges
-            *   Create a blurring effect
-        *   **Effect:**
+        * **Purpose:**
+            * Smooth out edges
+            * Create a blurring effect
+            * Reduce noise
+        * **Effect:**
             *   Less sharp image
             *   Removes fine details
-        *   **Examples:**
-            *   **Mean Filter (Box Blur):**  Each pixel becomes the average of its neighbors.
-                *   *Note:* Larger kernel = more blur.
-            *   **Gaussian Filter:** Weights neighbors using a Gaussian function (bell curve).
-                *   *Note:* Closer pixels have higher weights, resulting in a more natural blur.
+        * **Examples:**
+            * **Mean Filter (Box Blur):**  Each pixel becomes the average of its neighbors.
+                * *Note:* Larger kernel = more blur.
+            * **Gaussian Filter:** Weights neighbors using a Gaussian function (bell curve).
+                * *Note:* Closer pixels have higher weights, resulting in a more natural blur.
 
-    2. **Sharpening Filters:**
-
-        *   **Purpose:**
-            *   Enhance edges and details
-            *   Make the image appear sharper
-        *   **Effect:**
-            *   Increases contrast along edges
-        *   **Examples:**
-            *   **Laplacian Filter:** Highlights rapid intensity changes (edges) using the second derivative.
-            *   **Unsharp Masking:** Sharpens by subtracting a blurred version from the original.
-
-    3. **Edge Detection Filters:**
-
-        *   **Purpose:**
-            *   Detect edges (boundaries between regions of different intensity)
-        *   **Effect:**
-            *   Highlights sharp changes in pixel values
-            *   Outlines edges in the image
-        *   **Examples:**
-            *   **Sobel Filter:** Calculates the image intensity gradient in horizontal and vertical directions.
-            *   **Prewitt Filter:** Similar to Sobel, but with different coefficients.
-            *   **Roberts Cross Filter:** Simple filter; computes the difference between diagonally adjacent pixels.
 
 ### B. Non-linear Filters
 

@@ -52,9 +52,10 @@
 
 > [!danger] Unit 3 & 4
 > - [[ADBMS Parellel Database.pdf]]
+> 	- refer:
+> 	- [[ADBMS Parellel and Distributation Short Notes]]
+> 	- [[Parellel and Distributation Questions and answers]]
 > - [[Distributed Database System_compressed.pdf]]
 > 	refer: [[19. Distributed Databases.pdf]] 
 ^05ae21
 
-- [[ADBMS Parellel and Distributation Short Notes]]
-- [[Parellel and Distributation Questions and answers]]

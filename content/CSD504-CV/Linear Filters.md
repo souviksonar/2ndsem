@@ -21,25 +21,30 @@ Where:
 A crucial property of many filters is **linearity**. A linear filter satisfies the following condition:
 
 
-$g(αx₁ + βx₂) = αg₁(x) + βg₂(y)$
+$g(αx + βx) = αg(x) + βg(y)$
 
 
 Where:
 
 *   **g()**: The filter function.
 *   **α, β**: Scalar constants (scaling factors).
-*   **x₁, x₂**: Input signals (e.g., pixel intensities or image patches).
-*   **x, y**: Input signals (e.g., pixel intensities or image patches). Possibly a typo in the original notes, and it should be x<sub>1</sub> and x<sub>2</sub>
-*   **g₁(), g₂()**:  Represent the filter function applied to individual inputs. Possibly a typo and might indicate different functions or instances of 'g'.
+*   **x, y**: Input signals (e.g., pixel intensities or image patches).
 
 **Interpretation:** The filter's response to a linear combination of inputs is the same as the linear combination of the filter's responses to each input individually.
 
-**Note:** in the original image, below this equation, it was written that this is the definition of a `linear function (convolution)`.
-
 ## Time and Space Invariance
 
-*   **Time-Invariant (Shift-Invariant):** A filter is time-invariant (or shift-invariant) if its response does not change when the input is shifted in time (or space, in the case of images). Shifting the input image results in the same output, but shifted spatially.
-*   **Space Invariant:** This is another term for shift-invariance. It emphasizes that the filter's behavior is consistent across all spatial locations in the image.
+### **Space Invariance (or Translational Invariance):**
+
+> An operation or system is **space-invariant** if its response is the same regardless of the object's location in the image.  If you shift the input image, the output is simply shifted by the same amount.
+
+**Example:**  A **convolutional filter** for edge detection is space-invariant.  It will detect an edge pattern whether it's in the top-left or bottom-right of the image.
+
+### **Time Invariance (or Temporal Invariance):**
+
+> In video processing, a system is **time-invariant** if a time delay in the input sequence results in only a corresponding time delay in the output, with no other changes in the output.  The system's behavior doesn't change over time itself.
+
+**Example:**  A **frame differencing** algorithm for motion detection is time-invariant. If you apply it to a video starting at time T=0, it detects motion. If you start the *same* video at T=5, it will still detect the *same* motion events, just 5 time units later.
 
 ## Types of Linear Filters
 

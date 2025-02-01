@@ -16,7 +16,7 @@ Where:
 *   $T(u, v)$: The transformed image in the new domain (u, v are the transform domain coordinates, often representing frequencies or other basis components).
 *   $K(x, y, u, v)$: The **transform kernel** or **basis function**. This function defines the specific transformation being applied. It determines how the original image is projected onto the new domain.
 
-**In discrete form (for digital images):**
+### **In discrete form (for digital images):**
 
 $$
 T(u, v) = \sum_{x=0}^{M-1} \sum_{y=0}^{N-1} f(x, y) K(x, y, u, v) 
@@ -50,11 +50,11 @@ Where:
 *   $K_1(x, u)$: A 1D kernel applied along the x-dimension.
 *   $K2(y, v)$: A 1D kernel applied along the y-dimension.
 
-**Significance of Separability:**
+### **Significance of Separability:**
 
 *   **Computational Efficiency:** Separable transforms can be computed much faster. Instead of performing a full 2D transformation, we can perform two 1D transformations sequentially: first along the rows (x-dimension) and then along the columns (y-dimension) of the intermediate result.
 
-**Forward transform using separable kernels:**
+### **Forward transform using separable kernels:**
 $$
 T(u, v) = \sum_{y=0}^{N-1} K_2(y,v) \left[ \sum_{x=0}^{M-1} f(x,y) K_1(x,u) \right] 
 $$
@@ -62,7 +62,7 @@ $$
 *   We can compute the inner summation for each row `y` first to obtain an intermediate result.
 *   Then, we compute the outer summation over the intermediate results to obtain the final transform.
 
-**Inverse transform using separable kernels:**
+### **Inverse transform using separable kernels:**
 $$
 f(x, y) = \sum_{v=0}^{N-1} K_2^*(y,v) \left[ \sum_{u=0}^{M-1} T(u,v) K_1^*(x,u) \right] 
 $$
@@ -75,10 +75,7 @@ $$
 
 ### 1. Discrete Fourier Transform (DFT)
 
-*   **Kernel:**
-    $$
-    K(x, y, u, v) = e^{-j2\pi(\frac{ux}{M} + \frac{vy}{N})} = e^{-j2\pi\frac{ux}{M}} e^{-j2\pi\frac{vy}{N}}
-    $$
+*   **Kernel:** $K(x, y, u, v) = e^{-j2\pi(\frac{ux}{M} + \frac{vy}{N})} = e^{-j2\pi\frac{ux}{M}} e^{-j2\pi\frac{vy}{N}}$
     Where $j = \sqrt{-1}$
 
 *   **Separable:**
@@ -102,4 +99,3 @@ $$
     $K_2(y, v) = \alpha(v) \cos\left[\frac{\pi(2y+1)v}{2N}\right]$
 
 *   **Used in JPEG compression:** The DCT is excellent at energy compaction, concentrating most of the image's energy in the low-frequency coefficients.
-

@@ -6,10 +6,6 @@
 *   **Concept:** Spatial frequency refers to the rate at which pixel intensity values change within an image.
     *   **High Spatial Frequency:**  Represents rapid changes in intensity over a short distance. This corresponds to sharp details, edges, and textures in an image.
     *   **Low Spatial Frequency:** Represents gradual changes in intensity over a larger distance. This corresponds to smooth regions, overall shapes, and the general background of an image.
-*   **Visual Representation:**
-    *   The handwritten notes depict this with a square and sine waves:
-        *   Sharp, vertical/horizontal lines within the square represent high frequencies (edges).
-        *   Sine waves with different wavelengths (frequencies) are used to illustrate how quickly the intensity is changing. Higher frequency waves represent faster changes.
 
 *   **Bit Planes:**
     *   In some applications, analyzing the bit planes of an image is important.
