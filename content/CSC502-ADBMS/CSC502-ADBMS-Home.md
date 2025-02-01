@@ -43,7 +43,7 @@
 > - [[2.1 Indexing.pdf]]
 > - [[2.2 Query procesing.pdf]]
 > - [[8. Query Processing.pdf]]
-> - 
+
 
 - [[ADBMS Unit 1 Short Notes]]
 - [[ADBMS Unit 2.1 Important Term]]
@@ -53,9 +53,10 @@
 > [!danger] Unit 3 & 4
 > - [[ADBMS Parellel Database.pdf]]
 > 	- refer:
-> 	- [[ADBMS Parellel and Distributation Short Notes]]
-> 	- [[Parellel and Distributation Questions and answers]]
+> 		- [[ADBMS Parellel and Distributation Short Notes]]
+> 		- [[Parellel and Distributation Questions and answers]]
 > - [[Distributed Database System_compressed.pdf]]
-> 	refer: [[19. Distributed Databases.pdf]] 
+> 	- refer: 
+> 		- [[19. Distributed Databases.pdf]] 
 ^05ae21
 

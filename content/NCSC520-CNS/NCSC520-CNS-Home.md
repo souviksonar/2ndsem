@@ -37,9 +37,3 @@
 > - [[Cryptography and Network Security.pdf#page=347|ELLIPTIC CURVE CRYPTOSYSTEMS]]
 > - [[CNS_ECC_Revied_Notes.pdf]]
 
-# TODO
-- [x] Chapter 4 from the book (@2025-01-17)
-- [x] why we go on the reflection in the elliptic curves P+Q (@2025-01-22)
-- [ ] ECC_Revised_notes.pdf (@2025-01-27 22:33)
-- [ ] Practice Set from Book
-- [ ] Search Solide for the Book

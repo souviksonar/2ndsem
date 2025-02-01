@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "2ndSem",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -11,8 +11,8 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "2ndsem.pages.dev",
+    ignorePatterns: ["private", "templates", ".obsidian", "DailyTodo"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
