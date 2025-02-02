@@ -1,6 +1,7 @@
 > [!NOTE] Syllabus
 > [[CSC502_new.pdf]]
 
+# Reference
 > [!NOTE] ADBMS Book
 > - [[Database System Concepts 7.pdf]]
 > - [[Book Solution of ADBMS]]
@@ -15,21 +16,32 @@
 
 > [!NOTE] Short DBMS Notes
 > - [[Short DBMS.pdf]]
+> - [[ADBMS Senior Notes.pdf]]
 
 
-> [!NOTE] PYQ
-> - [[ADBMS PYQ.pdf]]
+> [!NOTE] Old Notes
+- [[12s.pdf]]
+- [[22s.pdf]]
+- [[Advanced_Transaction_Processing.pdf]]
+- [[chp14.pdf]]
+- [[Database System Concepts 6th edition.pdf]]
+- [[Distributed_Databases_(Part_2).pdf]]
+- [[Distributed_Databases_(Part_3).pdf]]
+- [[Distributed_Databases_(Part_I).pdf]]
+- [[Hashing.pdf]]
+- [[Indexing.pdf]]
+- [[Object_Based_Databases.pdf]]
+- [[Parallel_Databases.pdf]]
+- [[Query_Optimization.pdf]]
+- [[Query_Processing.pdf]]
+- [[Query_Processing_and_Evaluation.pdf]]
+
+# PYQ
+![[ADBMS PYQ]]
+
 
 # Tutorials
-## Tutorial 1
-- [[ADBMS Tutorial 1.pdf]]
-	- [[ADBMS Tut 1 Solution]]
-
-## Tutorial 2
-- [[ADBMS Tut 2.pdf]]
-	- [[ADBMS Tut 2 Solution]]
-## Tutorial 3
-- [[ADBMS Tut 3.pdf]]
+![[ADBMS Tutorials]]
 
 # Notes
 

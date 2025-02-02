@@ -2,27 +2,43 @@
 > [!NOTE] AGT Syllabus
 > [[CSC503.pdf]]
 
+# Reference
 > [!NOTE] AGT Book
 > [[Algorithmic Graph Theory.pdf]]
 
 
-> [!NOTE] PYQ
-> - [[AGT PYQ.pdf]]
+> [!NOTE] Notes
+> - [[AGT Complete.pdf]]
+
+> [!NOTE] Old Notes
+> - [[agt.pdf]]
+> - [[agt 1.pdf]]
+> - [[agt 2.pdf]]
+> - [[agt 3.pdf]]
+> - [[agt 4.pdf]]
+> - [[agt 5.pdf]]
+> - [[agt 6.pdf]]
+> - [[agt 7.pdf]]
+> - [[agt 8.pdf]]
+> - [[agt 9.pdf]]
+> - [[agt 10.pdf]]
+> - [[Chromatic_No_and_degree_relation.pdf]]
+> - [[clique.pdf]]
+> - [[Dominating_Sets.pdf]]
+> - [[graph_decomposition.pdf]]
+> - [[maxflow.pdf]]
+> - [[Prims_and_Kruskals.pdf]]
+> - [[Vertex_Transitive.pdf]]
+
+# PYQ
+![[AGT PYQ]]
+
+
+
 
 # Tutorials
-## Tutorial 1
-1. Prove that the sum of degrees of all vertices in a graph is twice the number of edges in the graph.
-	1. [[AGT Tut 1.1 solution]]
-2. Prove that in any graph, the number of vertices with odd degrees is always even.
-	1. [[AGT Tut 1.2 solution]]
+![[AGT Tutorials]]
 
-## Tutorial 2
-1. For a bipartite graph with partite sets   X and Y. Prove that the sum of degrees of vertices in  X equals the sum of degrees of vertices in Y.
-	1. [[AGT Tut 2.1 solution]]
-2. Write the merge sort algorithm and analyse its time complexity using recursive tree method.
-	1. [[AGT Tut 2.2 solution]]
-## Tutorial 3
-- [[AGT Tutorial 3.pdf]]
 
 # Notes
 
