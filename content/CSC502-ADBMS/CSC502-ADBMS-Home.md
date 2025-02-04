@@ -71,4 +71,5 @@
 > 	- refer: 
 > 		- [[19. Distributed Databases.pdf]] 
 ^05ae21
+- [[Distributed Databases Short Notes]]
 
