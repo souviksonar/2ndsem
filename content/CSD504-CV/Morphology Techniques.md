@@ -39,7 +39,7 @@
     *   `B` be the structuring element.
     *   `z` be a translation vector of the origin
     *   $B_z$ be the translation of $B$ by $z$
-    The erosion of `A` by `B` is denoted as `A ⊖ B` or `A ⊖ B` and is defined as:
+    The erosion of `A` by `B` is denoted as $A \ominus B$ or $A \ominus B$ and is defined as:
 
     $A \ominus B = \{z \in E | B_z \subseteq A\}$
 ![[Pasted image 20250126172025.png]]
@@ -55,7 +55,7 @@
 *   **Analogy:** Imagine "growing" the boundaries of objects.
 *   **Operation:** The SE is slid over the image. If *any part* of the SE overlaps with the object (at least one '1' of the SE aligns with a '1' in the image), the corresponding pixel in the output image is set to '1'. Otherwise, it's set to '0'.
 *   **Mathematical Notation (for binary images):**
-    The dilation of `A` by `B` is denoted as `A ⊕ B` and is defined as:
+    The dilation of `A` by `B` is denoted as $A \oplus B$ and is defined as:
 
     $A \oplus B = \{z \in E | (\hat{B})_z \cap A \neq \emptyset\}$
     Where
@@ -74,7 +74,7 @@
     The opening of `A` by `B` is denoted as `A ∘ B` and is defined as:
 
     $A \circ B = (A \ominus B) \oplus B$
-![[Pasted image 20250126172924.png]]
+![[Pasted image 20250204110014.png]]
 *   **Effects:**
     *   Removes small objects and thin protrusions (smoothes from the outside).
     *   Preserves the general shape and size of larger objects.
@@ -88,7 +88,7 @@
     The closing of `A` by `B` is denoted as `A • B` and is defined as:
 
     $A \bullet B = (A \oplus B) \ominus B$
-![[Pasted image 20250126172931.png]]
+![[Pasted image 20250204110038.png]]
 *   **Effects:**
     *   Fills small holes and gaps (smoothes from the inside).
     *   Preserves the general shape and size of objects.
@@ -117,9 +117,9 @@
     Let:
     *   `f` be the input image (grayscale or binary).
     *   `b` be the structuring element.
-    *   `f ∘ b` denote the opening of `f` by `b`.
+    *   $(f \circ b)$ denote the opening of `f` by `b`.
 
-    The bright top-hat transform, `T_w(f)`, is defined as:
+    The bright top-hat transform, $T_w(f)$, is defined as:
 
     $T_w(f) = f - (f \circ b)$
 
@@ -143,9 +143,9 @@
     Let:
     *   `f` be the input image (grayscale or binary).
     *   `b` be the structuring element.
-    *   `f • b` denote the closing of `f` by `b`.
+    *   $f \bullet b$ denote the closing of `f` by `b`.
 
-    The dark top-hat transform, `T_b(f)`, is defined as:
+    The dark top-hat transform, $T_b(f)$, is defined as:
 
     $T_b(f) = (f \bullet b) - f$
 

@@ -46,12 +46,5 @@ $\sum_{v \in V_{odd}} deg(v) = 2m$
 
 This shows that the sum of the degrees of vertices in *$V_{odd}$* is also an even number.
 
-### **6. Conclude that *$V_{odd}$* is Even:**
-
-Let *$n = |V_{odd}|$*. Each vertex in *$V_{odd}$* has an odd degree. If we add up *n* odd numbers, the only way to get an even sum is if *n* itself is even.
-
-Why?
-*   If *n* were odd, the sum of *n* odd numbers would be odd.
-*   Since the sum is even (as shown in step *5*), *n* must be even.
 
 **Therefore, *$V_{odd}$* is even.**

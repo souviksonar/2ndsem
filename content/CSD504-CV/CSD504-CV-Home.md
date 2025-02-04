@@ -50,6 +50,8 @@
 > - [[Morphology Techniques]]
 > - [[Geometric Transformations]]
 > - [[Texture]]
+> - [[Texture Analysis Using Gabor Filters]]
+> - [[Local Binary Patterns (LBP) & Histogram of Oriented Gradient (HoG)]]
 
 
 > [!NOTE] Unit 3
@@ -59,12 +61,22 @@
 > 	 - 2-7
 >  - [[1904.06554v1.pdf]]
 > 	 - 2(block diagram), 3(fig 3), 5(table 1)
->  - [[GF.pdf]]
+>  - ~~[[GF.pdf]]~~
 > 	 - 5-26
->  - [[Lect-15.pdf]]
+>  - ~~[[Lect-15.pdf]]~~
 > 	 - 1-25
 >  - [[lecture_9_2_featureextraction.pdf]]
 > 	 - 1 to 18
+> - [[22-shapeintro.pdf]]
+> 	- 1-24
+> - [[Bauer.pdf]]
+> - [[2D-shape-postprint.pdf]]
+> 	- 1 to 24
+> - [[15_features.pdf]]
+> 	- 6-17
+> - [[binaryshape.pdf]]
+> 	- 1 to 6
+
 
 
 # Todo

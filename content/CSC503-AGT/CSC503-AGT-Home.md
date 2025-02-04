@@ -42,7 +42,7 @@
 
 # Notes
 
-> [!danger] Unit1
+> [!question] Unit1
 > - [[AGT_Intro1.pdf]]
 > - [[AGT_Intro_2.pdf]]
 > - [[AGT_Intro3.pdf]]
