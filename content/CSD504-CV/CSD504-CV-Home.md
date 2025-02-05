@@ -52,10 +52,11 @@
 > - [[Texture]]
 > - [[Texture Analysis Using Gabor Filters]]
 > - [[Local Binary Patterns (LBP) & Histogram of Oriented Gradient (HoG)]]
+> - [[Statistical Methods of Texture Analysis]]
 
 
 > [!NOTE] Unit 3
->  - [[MachineVision_Chapter7.pdf]]
+>  - ~~[[MachineVision_Chapter7.pdf]]~~
 > 	 - 5,6,10(fig)
 >  - [[Texture.pdf]]
 > 	 - 2-7

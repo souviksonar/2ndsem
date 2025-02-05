@@ -9,6 +9,7 @@
 
 > [!NOTE] Notes
 > - [[AGT Complete.pdf]]
+> 	- table content: [[AGT Complete Table]]
 
 > [!NOTE] Old Notes
 > - [[agt.pdf]]
@@ -51,5 +52,6 @@
 > - [[AGT_DFS_BFS.pdf]]
 > - [[AGT_Prims_and_Kruskal_Algorithms.pdf]]
 > - [[AGT_Diastras_warshal-floyd.pdf]]
-> - [[AGT_All-pairs-shortest-path.pdf]]
+> - [[AGT_Bridge-1-24.pdf]]
+
 

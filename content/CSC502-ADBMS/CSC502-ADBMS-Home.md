@@ -20,24 +20,26 @@
 
 
 > [!NOTE] Old Notes
-- [[12s.pdf]]
-- [[22s.pdf]]
-- [[Advanced_Transaction_Processing.pdf]]
-- [[chp14.pdf]]
-- [[Database System Concepts 6th edition.pdf]]
-- [[Distributed_Databases_(Part_2).pdf]]
-- [[Distributed_Databases_(Part_3).pdf]]
-- [[Distributed_Databases_(Part_I).pdf]]
-- [[Hashing.pdf]]
-- [[Indexing.pdf]]
-- [[Object_Based_Databases.pdf]]
-- [[Parallel_Databases.pdf]]
-- [[Query_Optimization.pdf]]
-- [[Query_Processing.pdf]]
-- [[Query_Processing_and_Evaluation.pdf]]
+> - [[12s.pdf]]
+> - [[22s.pdf]]
+> - [[Advanced_Transaction_Processing.pdf]]
+> - [[chp14.pdf]]
+> - [[Database System Concepts 6th edition.pdf]]
+> - [[Distributed_Databases_(Part_2).pdf]]
+> - [[Distributed_Databases_(Part_3).pdf]]
+> - [[Distributed_Databases_(Part_I).pdf]]
+> - [[Hashing.pdf]]
+> - [[Indexing.pdf]]
+> - [[Object_Based_Databases.pdf]]
+> - [[Parallel_Databases.pdf]]
+> - [[Query_Optimization.pdf]]
+> - [[Query_Processing.pdf]]
+> - [[Query_Processing_and_Evaluation.pdf]]
 
 # PYQ
-![[ADBMS PYQ]]
+
+> [!question] 
+> ![[ADBMS PYQ]]
 
 
 # Tutorials
@@ -45,23 +47,26 @@
 
 # Notes
 
-
+## Unit 1
 > [!danger] Unit 1
 > - [[Unit 1 Notes - Relational Database.pdf]]
-- [[ADBMS Unit 1 Important Term]]
-- 
 
+> [!success] Unit 1 Short Notes
+> - [[ADBMS Unit 1 Important Term]]
+
+---
+## Unit 2
 > [!danger] Unit 2
 > - [[2.1 Indexing.pdf]]
 > - [[2.2 Query procesing.pdf]]
 > - [[8. Query Processing.pdf]]
 
+> [!success] Unit 2 Short Notes
+> - [[ADBMS Unit 1 Short Notes]]
+> - [[ADBMS Unit 2.1 Important Term]]
 
-- [[ADBMS Unit 1 Short Notes]]
-- [[ADBMS Unit 2.1 Important Term]]
-
-
-
+---
+## Unit 3 & 4
 > [!danger] Unit 3 & 4
 > - [[ADBMS Parellel Database.pdf]]
 > 	- refer:
@@ -71,5 +76,8 @@
 > 	- refer: 
 > 		- [[19. Distributed Databases.pdf]] 
 ^05ae21
-- [[Distributed Databases Short Notes]]
 
+> [!success] Unit 3&4 Short Notes
+> - [[Distributed Databases Short Notes]]
+
+# Examflow
