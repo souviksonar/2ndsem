@@ -1,3 +1,14 @@
+
+> [!NOTE] Hash Join
+> - *Micro-topic:* Basics (Page 712)
+> - *Micro-topic:* Figure 15.9 Hash partitioning of relations. (Page 713)
+> - *Micro-topic:* Figure 15.10 Hash join. (Page 714)
+> - *Micro-topic:* Recursive Partitioning (Page 714)
+> - *Micro-topic:* Handling of Overflows (Page 715)
+> - *Micro-topic:* Cost of Hash Join (Page 715)
+
+^8e1ae2
+
 ## Basics
 
 Hash join is an efficient algorithm to implement natural joins and equi-joins.
@@ -33,7 +44,7 @@ Illustrates visually how relations *r* and *s* are partitioned using the hash fu
 Provides the complete pseudocode of the hash-join algorithm for computing the natural join of relations r and s.
 
 **Algorithm**
-```
+```bash
 /* Partition s */
 for each tuple ts in s do begin
     i := h(ts[JoinAttrs]);
