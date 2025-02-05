@@ -7,3 +7,5 @@
 	- [[ADBMS Tut 2 Solution]]
 ## Tutorial 3
 - [[ADBMS Tut 3.pdf]]
+	- [[ADBMS Tut 3 solution Detailed]]
+	- [[ADBMS Tut 3 Solution Short]]

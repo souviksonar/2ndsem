@@ -64,6 +64,7 @@
 > [!success] Unit 2 Short Notes
 > - [[ADBMS Unit 1 Short Notes]]
 > - [[ADBMS Unit 2.1 Important Term]]
+> - [[Query Processing table]]
 
 ---
 ## Unit 3 & 4
