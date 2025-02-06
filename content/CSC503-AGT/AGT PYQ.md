@@ -7,6 +7,7 @@
 
 > [!NOTE] PYQ
 > - [[AGT MID 21-22.pdf]]
+> 	- solution: [[AGT MID 21-22 solution]]
 > - [[AGT END 23.pdf]]
 > - [[AGT Mid 23.pdf]]
 > - [[AGT END 23-24.pdf]]

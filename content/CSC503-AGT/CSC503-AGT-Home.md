@@ -46,7 +46,7 @@
 > [!question] Unit1
 > - [[AGT_Intro1.pdf]] #done
 > - [[AGT_Intro_2.pdf]] #done
-> - [[AGT_Intro3.pdf]] #done
+> - [x]  [[AGT_Intro3.pdf]] #done
 > - [[AGT_Complexity.pdf]]
 > - [[AGT_Time_complexity.pdf]]
 > - [[AGT_DFS_BFS.pdf]] #done
@@ -55,3 +55,9 @@
 > - [[AGT_Bridge-1-24.pdf]] #done
 
 
+> [!NOTE] Unit 1 Short Notes
+> - [[Eular, Hamilton Cycles; Planer Graph; Coloring]]
+
+
+# Flow
+[[AGT Flow mid]]
