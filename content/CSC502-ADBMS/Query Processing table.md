@@ -21,13 +21,9 @@
     *   **Subtopic: Selection Operation** (Page 695)
         *   *Mini-topic:* File Scan (Page 695)
         *   *Mini-topic:* Index Scan (Page 695)
-        *   *Mini-topic:* Algorithms (Page 695)
-            *   *Micro-topic:* A1 (linear search) (Page 695)
-            *   *Micro-topic:* A2 (clustering index, equality on key) (Page 697)
-            *   *Micro-topic:* A3 (clustering index, equality on non-key) (Page 697)
-            *   *Micro-topic:* A4 (secondary index, equality) (Page 697)
-            *   *Micro-topic:* A5 (clustering index, comparison) (Page 698)
-            *   *Micro-topic:* A6 (secondary index, comparison) (Page 698)
+        *   *Mini-topic:* [[Algorithms for Selection]] (Page 695)
+			        ![[Algorithms for Selection#^13da48]]
+
         *   *Mini-topic:* Figure 15.3 Cost estimates for selection algorithms. (Page 696)
         *   *Mini-topic:* Bitmap Index Scan (Page 698)
     *   **Subtopic: Selections Involving Comparisons** (Page 698)
@@ -40,10 +36,9 @@
             *   *Micro-topic:* A8 (conjunctive selection using composite index) (Page 700)
             *   *Micro-topic:* A9 (conjunctive selection by intersection of identifiers) (Page 700)
             *   *Micro-topic:* A10 (disjunctive selection by union of identifiers) (Page 700)
-    *   **Subtopic: Sorting** (Page 701)
-        *   *Mini-topic:* External Sort-Merge Algorithm (Page 701)
-            *   *Micro-topic:* Figure 15.4 External sorting using sort-merge. (Page 703)
-        *   *Mini-topic:* Cost Analysis of External Sort-Merge (Page 702)
+    *   **Subtopic: [[Sorting]]** (Page 701)
+			    ![[Sorting#^a903bf]]
+
     *   **Subtopic: Join Operation** (Page 704)
         *   *Mini-topic:* Nested-Loop Join (Page 704)
             *   *Micro-topic:* Figure 15.5 Nested-loop join. (Page 705)

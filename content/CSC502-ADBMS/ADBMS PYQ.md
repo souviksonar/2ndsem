@@ -7,6 +7,7 @@
 
 # PYQ
 > - [[ADBMS mid 22-23.pdf]]
+> 	- solution: [[ADBMS mid 22-23 solution]]
 > - [[ADBMS END 22-23.pdf]]
 > - [[ADBMS mid 23-24.pdf]]
 > - [[ADBMS END 23-24.pdf]]
