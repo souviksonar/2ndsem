@@ -14,3 +14,5 @@
 - [[CNS TUT 3.pdf]]
 	- solution: [[CNS TUT 3 Solution]]
 
+## Tutorial 4
+- [[CNS_Tutorial_WEEK4.pdf]]

@@ -23,7 +23,7 @@
 | **[[19.5 Concurrency Control in Distributed Databases]]** |                                                       |
 |                                                           | - 19.5.1 Locking Protocols                            |
 |                                                           | - Single Lock-Manager Approach                        |
-|                                                           |      - Distributed Lock Manager                       |
+|                                                           | - Distributed Lock Manager                            |
 |                                                           |      - Primary Copy                                   |
 |                                                           |      - Majority Protocol                              |
 |                                                           |      - Biased Protocol                                |
