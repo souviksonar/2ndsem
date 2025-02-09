@@ -47,6 +47,7 @@
 
 > [!NOTE] Unit 2 Short Notes
 > - [[Attacks on RSA]]
+> - [[attacks on rsa.pdf]]
 
 
 # Flow

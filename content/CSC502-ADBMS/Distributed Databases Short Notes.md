@@ -24,7 +24,7 @@
 |                                                           | - 19.5.1 Locking Protocols                            |
 |                                                           | - Single Lock-Manager Approach                        |
 |                                                           | - Distributed Lock Manager                            |
-|                                                           |      - Primary Copy                                   |
+|                                                           | - Primary Copy                                        |
 |                                                           |      - Majority Protocol                              |
 |                                                           |      - Biased Protocol                                |
 |                                                           |      - Quorum Consensus Protocol                      |

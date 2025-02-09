@@ -19,6 +19,7 @@
 [[CV 2025 Lec5.pdf]]
 [[CV 2025 Lec4.pdf]]
 [[CV 2025 Lec3.pdf]]
+	[[Image Filtering]]
 [[CV 2025 Lec2.pdf]]
 [[CV 2025 Lec1.pdf]]
 
@@ -53,20 +54,35 @@
 > - [[Texture Analysis Using Gabor Filters]]
 > - [[Local Binary Patterns (LBP) & Histogram of Oriented Gradient (HoG)]]
 > - [[Statistical Methods of Texture Analysis]]
+> - [[Image Feature Extraction]]
+> - [[Computer Vision - Texture]]
+
+
+> [!NOTE] From PDF
+> - [ ] [[CS 131 Lecture 1-Course Introduction]]
+> 	- [ ] [[01_notes.pdf]]
+> - [ ] [[Computer Vision- Filtering in the Frequency Domain]]
+> 	- [ ] [[5_filtering_in_frequency_domain.pdf]]
+> - [ ] [[Wavelets and Multiresolution Processing]]
+> 	- [ ] [[Chapter07wavelet.pdf]]
+> 	- [ ] [[DIP_Lecture9.pdf]]
+> 	- [ ] [[matlabdemowavelet.pdf]]
+> 	- [ ] [[W24-Wavelets.pdf]]
+> 	- [ ] [[waveletgood.pdf]]
 
 
 > [!NOTE] Unit 3
->  - ~~[[MachineVision_Chapter7.pdf]]~~
+>  - [x] [[MachineVision_Chapter7.pdf]]
 > 	 - 5,6,10(fig)
->  - [[Texture.pdf]]
+>  - [x] [[Texture.pdf]]
 > 	 - 2-7
 >  - [[1904.06554v1.pdf]]
 > 	 - 2(block diagram), 3(fig 3), 5(table 1)
->  - ~~[[GF.pdf]]~~
+>  - [x] [[GF.pdf]]
 > 	 - 5-26
->  - ~~[[Lect-15.pdf]]~~
+>  - [x] [[Lect-15.pdf]]
 > 	 - 1-25
->  - [[lecture_9_2_featureextraction.pdf]]
+>  - [x] [[lecture_9_2_featureextraction.pdf]]
 > 	 - 1 to 18
 > - [[22-shapeintro.pdf]]
 > 	- 1-24
@@ -75,11 +91,7 @@
 > 	- 1 to 24
 > - [[15_features.pdf]]
 > 	- 6-17
-> - [[binaryshape.pdf]]
+> - [x] [[binaryshape.pdf]]
 > 	- 1 to 6
 
 
-
-# Todo
-- [ ] Make Notes for today's topic (@2025-01-27 21:30)
-- [ ] all dne

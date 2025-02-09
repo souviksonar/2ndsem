@@ -82,3 +82,4 @@
 > - [[Distributed Databases Short Notes]]
 
 # Examflow
+- [[ADBMS Flow]]
