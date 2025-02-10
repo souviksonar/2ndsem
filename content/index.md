@@ -9,8 +9,13 @@
 
 ## [[NCSC596-RM-Home]]
 
-# Tutorials
-## [[Tutorials]]
+# MIDSEM syllabus
 
-# PYQ
-![[PYQ]]
+## ADBMS
+- Till DeadLock
+
+## AGT
+- till Gray Code
+
+## CNS
+- Till RSA attacks

@@ -21,18 +21,18 @@
 |                                                           |      - Persistent Messaging                           |
 |                                                           |      - Workflows                                      |
 | **[[19.5 Concurrency Control in Distributed Databases]]** |                                                       |
-|                                                           | - 19.5.1 Locking Protocols                            |
+|                                                           | 19.5.1 Locking Protocols                              |
 |                                                           | - Single Lock-Manager Approach                        |
 |                                                           | - Distributed Lock Manager                            |
 |                                                           | - Primary Copy                                        |
-|                                                           |      - Majority Protocol                              |
-|                                                           |      - Biased Protocol                                |
-|                                                           |      - Quorum Consensus Protocol                      |
-|                                                           | - 19.5.2 Timestamping                                 |
-|                                                           | - 19.5.3 Replication with Weak Degrees of Consistency |
+|                                                           | - Majority Protocol                                   |
+|                                                           | - Biased Protocol                                     |
+|                                                           | - Quorum Consensus Protocol                           |
+|                                                           | [[19.5.2 Timestamping]]                               |
+|                                                           | 19.5.3 Replication with Weak Degrees of Consistency   |
 |                                                           |      - Master-Slave Replication                       |
 |                                                           |      - Multimaster Replication                        |
-|                                                           | - 19.5.4 Deadlock Handling                            |
+|                                                           | [[19.5.4 Deadlock Handling in Distributed Databases]] |
 | **19.6 Availability**                                     |                                                       |
 |                                                           | - 19.6.1 Majority-Based Approach                      |
 |                                                           | - 19.6.2 Read One, Write All Available Approach       |
