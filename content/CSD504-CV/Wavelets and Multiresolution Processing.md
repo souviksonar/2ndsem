@@ -119,10 +119,11 @@ graph TD
     *   Doubles the spatial dimensions of approximation images.
     *   Given a 1D sequence $f(n)$, the upsampled sequence is:
 
-        $f_{2\uparrow}(n) = \begin{cases}
+        $$
+    f_{2\uparrow}(n) = \begin{cases}
         f(n/2) & \text{if } n \text{ is even} \\
         0 & \text{otherwise}
-        \end{cases}$
+        \end{cases}$$
 
         Insert a 0 after every value in sequence.
 
@@ -132,56 +133,6 @@ graph TD
 
         $f_{2\downarrow}(n) = f(2n)$
      *Discard every other sample.*
-
-## Subband Coding (Page 4 PDF)
-
-*   **Subbands:**  A set of band-limited components resulting from decomposing an image.
-*   **Decomposition:** Done such that subbands can be reassembled to reconstruct the original image *without error*.
-
-* ### Digital Filter (Fig 7.4a)
-   * Components: Unit Delays, Multipliers, Adders.
-   * Unit Delays: Connected in series to create $K-1$ delayed (right shifted) versions of input sequence $f(n)$.
-
-        $f(n - 2) = \begin{cases}
-          f(0) & \text{for } n = 2 \\
-          f(1) & \text{for } n = 2 + 1 = 3 \\
-          \vdots
-        \end{cases}$
-    *Input Sequence:* $f(n) = f(n-0)$
-    *Delayed Sequence:* Output of Unit Delays.
-    *Multiplication:* Delayed sequences are multiplied by constants $h(0), h(1), ..., h(K-1)$ , called *filter coefficients*.
-        $\hat{f}(n) = \sum_{k=-\infty}^{\infty} h(k)f(n-k) = f(n)*h(n)$
-        * Each Coefficient is a Filter Tap.
-        * Filter is of Order $K$
-        * Input: Unit discrete impulse.
-        $\hat{f}(n) = \sum_{k=-\infty}^{\infty} h(k)\delta(n-k) = h(n)$
-            *Substitute* $\delta(n)$ *for* $f(n)$.
-            *Sifting Property*: The unit impulse response of the filter is the K-element sequence of coefficients. Impulse is shifted left to right.
-
-* ### Two-Band Subband Coding and Decoding (Fig 7.6a)
-
-    *   Two filter banks, each containing two FIR (Finite Impulse Response) filters.
-    *   **Analysis Filter Bank:**
-        *   Uses filters $h_0(n)$ (lowpass) and $h_1(n)$ (highpass) to split the input sequence $f(n)$ into two downsampled sequences $f_{lp}(n)$ (approximation) and $f_{hp}(n)$ (detail).
-    *   **Synthesis Filter Bank:**
-        *   Uses filters $g_0(n)$ and $g_1(n)$ to combine the output of the analysis bank to produce $\hat{f}(n)$.
-
-    * **Goal:** Select $h_0(n)$, $h_1(n)$, $g_0(n)$, and $g_1(n)$ such that $f(n) = \hat{f}(n)$ (*perfect reconstruction filters*).
-
-## Analyzing and Synthesizing Wavelets
-
-*   **Analyzing Wavelet:**  Analog bandpass filter with scaling and translation properties.  Implemented as a convolution.  Breaks the input sequence into two half-length sequences (approximation and detail).
-*   **Synthesizing Wavelet:** Used with a scaling (smoothing) function to represent a signal from its lowpass features (background) and bandpass details (high frequency).
-* **Building:**
-    Need to build analyzing/synthesizing *wavelets*, and *scaling functions* (lowpass/smoothing) to ensure signal is reconstructed.
-    *Many two-band, real-coefficient, FIR, perfect filter banks exist.*
-    Synthesis Filters are *modulated* versions of analysis filters. One synthesis filter is *sign reversed*.
-    $g_0(n) = (-1)^n h_1(n)$
-    $g_1(n) = (-1)^{n+1}h_0(n)$
-    *OR*
-    $g_0(n) = (-1)^{n+1}h_1(n)$
-    $g_1(n) = (-1)^nh_0(n)$
-    *Cross-modulated Filters*
 
 ## Orthogonality and Orthonormality (Page 6 of PDF)
 
@@ -244,11 +195,12 @@ graph TD
 
     $h_0(z) = h_{00}(z) = \frac{1}{\sqrt{N}}, \quad z \in [0, 1]$
 
-    $h_k(z) = h_{pq}(z) = \frac{1}{\sqrt{N}} \begin{cases}
+    $$
+		h_k(z) = h_{pq}(z) = \frac{1}{\sqrt{N}} \begin{cases}
     2^{p/2} & (q-1)/2^p \le z < (q-0.5)/2^p \\
     -2^{p/2} & (q-0.5)/2^p \le z < q/2^p \\
     0 & \text{otherwise}, \quad z \in [0, 1]
-    \end{cases}$
+    \end{cases}$$
 
 * The $i$-th row of an $N\times N$ Haar Matrix, contains the elements of $h_i(z)$ for $z = 0/N, 1/N,...(N-1)/N$.
     *For $N=2$, first row of $2 \times 2$ matrix is $h_0(z)$ for $z = 0/2, 1/2$ which is $\frac{1}{\sqrt{2}}$.*

@@ -14,6 +14,11 @@
 > - [[4 Database Management System - Transaction.pdf]]
 > - [[5 Database Management System - File Organization & Indexing.pdf]]
 
+
+> [!NOTE] 
+> Contents
+
+
 > [!NOTE] Short DBMS Notes
 > - [[Short DBMS.pdf]]
 > - [[ADBMS Senior Notes.pdf]]

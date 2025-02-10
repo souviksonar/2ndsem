@@ -45,6 +45,7 @@
 > - [[Standard Image Transforms in Image Processing]]
 > 	- [[Fourier Transformation]]
 > 	- [[Discrete Cosine Transform (DCT)]]
+> 	- [[Image Transforms]]
 > - [[Image Filtering, Multiscaling, and Multi-resolution]]
 > 	- [[Image Pyramid]]
 > 	- [[Gaussian Pyramids]]
@@ -56,6 +57,9 @@
 > - [[Statistical Methods of Texture Analysis]]
 > - [[Image Feature Extraction]]
 > - [[Computer Vision - Texture]]
+> - [[Image Representation & Description]]
+> 	- [[chapter11 (1).pdf]]
+
 
 
 > [!NOTE] From PDF
@@ -93,5 +97,6 @@
 > 	- 6-17
 > - [x] [[binaryshape.pdf]]
 > 	- 1 to 6
+> - [x] [[DIP Unit 3 Vijay Chakole_1.pdf]]
 
 

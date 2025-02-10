@@ -52,7 +52,7 @@
 > - [ ] [[AGT_DFS_BFS.pdf]] #done
 > - [ ] [[AGT_Prims_and_Kruskal_Algorithms.pdf]] #done
 > - [x]  [[AGT_Diastras_warshal-floyd.pdf]] #done
-> - [ ] [[AGT_Bridge-1-24.pdf]] #done
+> - [x] [[AGT_Bridge-1-24.pdf]] #done
 
 
 > [!NOTE] Unit 1 Short Notes
