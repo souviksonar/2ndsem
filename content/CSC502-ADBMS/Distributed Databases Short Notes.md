@@ -45,7 +45,7 @@
 |                                                           | - 19.6.6 Trading Off Consistency for Availability     |
 |                                                           |      - CAP Theorem                                    |
 |                                                           |      - BASE Properties                                |
-| **19.7 Distributed Query Processing**                     |                                                       |
+| **[[19.7 Distributed Query Processing]]**                 |                                                       |
 |                                                           | - 19.7.1 Query Transformation                         |
 |                                                           | - 19.7.2 Simple Join Processing                       |
 |                                                           | - 19.7.3 Semijoin Strategy                            |

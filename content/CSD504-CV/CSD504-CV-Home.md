@@ -59,7 +59,12 @@
 > - [[Computer Vision - Texture]]
 > - [[Image Representation & Description]]
 > 	- [[chapter11 (1).pdf]]
+> - [[Shape Descriptors - I]]
+[[Local Feature Detectors and Descriptors]]
 
+
+> [!NOTE] Transformers
+> - [[CV 2025 Lec6.pdf|Hough Transform]]
 
 
 > [!NOTE] From PDF
@@ -73,7 +78,10 @@
 > 	- [ ] [[matlabdemowavelet.pdf]]
 > 	- [ ] [[W24-Wavelets.pdf]]
 > 	- [ ] [[waveletgood.pdf]]
-
+> - [ ] [[Wavelets and Multiresolution Processing 2]]
+> - [ ] [[Morphological Image Processing]]
+> 	- [ ] [[6_Morphological_image_processing.pdf]]
+	[[temp]]
 
 > [!NOTE] Unit 3
 >  - [x] [[MachineVision_Chapter7.pdf]]
@@ -98,5 +106,6 @@
 > - [x] [[binaryshape.pdf]]
 > 	- 1 to 6
 > - [x] [[DIP Unit 3 Vijay Chakole_1.pdf]]
+> - [x] [[Feature_Detectors_and_Descriptors_old.pdf]]
 
 

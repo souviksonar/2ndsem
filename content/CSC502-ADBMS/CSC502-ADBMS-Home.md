@@ -85,6 +85,9 @@
 
 > [!success] Unit 3&4 Short Notes
 > - [[Distributed Databases Short Notes]]
+> - [[Distributed Databases Flashcards]]
+> - [[Distributed Data Storage and Transparency]]
+> - [[temp1]]
 
 # Examflow
 - [[ADBMS Flow]]
