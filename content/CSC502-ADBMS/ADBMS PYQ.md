@@ -2,6 +2,7 @@
 # Quiz
 - [[ADBMS Quiz 3.pdf]]
 - [[ADBMS_QUIZ1.pdf]]
+	- [[ABMS QUIZ 1 flashcard]]
 - [[ADBMS Quiz IV_MTech.pdf]]
 - [[ADBMS Quiz2.pdf]]
 

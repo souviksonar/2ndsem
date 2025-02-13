@@ -81,7 +81,11 @@
 > - [ ] [[Wavelets and Multiresolution Processing 2]]
 > - [ ] [[Morphological Image Processing]]
 > 	- [ ] [[6_Morphological_image_processing.pdf]]
-	[[temp]]
+> - [ ] [[Principal Component Analysis (PCA)]]
+> 	- [ ] [[Lindsey Smith PCA.pdf]]
+> 	- [ ] [[Elhabian_PCA09.pdf]]
+> 	- [ ] [[CS4495-PCA.pdf]]
+> 	- [ ] [[LectureNotes-PCA.pdf]]
 
 > [!NOTE] Unit 3
 >  - [x] [[MachineVision_Chapter7.pdf]]

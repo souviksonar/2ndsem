@@ -58,6 +58,7 @@
 
 > [!success] Unit 1 Short Notes
 > - [[ADBMS Unit 1 Important Term]]
+> - [[ADBMS UNIT 1 flashcards - part 1]]
 
 ---
 ## Unit 2
@@ -70,6 +71,8 @@
 > - [[ADBMS Unit 1 Short Notes]]
 > - [[ADBMS Unit 2.1 Important Term]]
 > - [[Query Processing table]]
+> - [[ADBMS Unit 2 FlashCard]]
+> - [[ADBMS Unit 2.2 FlashCard]]
 
 ---
 ## Unit 3 & 4
@@ -86,8 +89,9 @@
 > [!success] Unit 3&4 Short Notes
 > - [[Distributed Databases Short Notes]]
 > - [[Distributed Databases Flashcards]]
+> - [[Distributed Databases Flashcards 2]]
 > - [[Distributed Data Storage and Transparency]]
-> - [[temp1]]
 
 # Examflow
 - [[ADBMS Flow]]
+- [[ADBMS formulas]]
