@@ -4,7 +4,7 @@
 ### Practical
 - [[ADBMS Lab 1.pdf]]
 ### Solution
-- [ ] Complete the ADBMS lab 1 (@2025-01-17 14:16)
+- [x] Complete the ADBMS lab 1 (@2025-01-17 14:16)
 
 ## Lab 2
 - [[Normalization Assignment 2.pdf]]

@@ -1,4 +1,4 @@
-![[Pasted image 20250126180146.png]]
+![[Pasted image 20250126180146.png|300]]
 **1. Starting with Polar Coordinates**
 
 *   Consider a point P with Cartesian coordinates $(x, y)$.

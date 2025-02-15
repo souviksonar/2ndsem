@@ -1,7 +1,7 @@
 ## Tutorial 1
 - [[CNS_Tutorial_WEEK1.pdf]]
 #### Solution
-- [ ] CNS Tutorial Solution (@2025-01-18)
+- [x] CNS Tutorial Solution (@2025-01-18)
 
 ## Tutorial 2
 - [[Tutorial_WEEK2.pdf]]

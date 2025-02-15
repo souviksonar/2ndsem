@@ -3,12 +3,19 @@
 > [[RM_Syllabus.pdf]]
 
 # Notes
-- [[1737354276_RM_01_(1).pdf]]
-- [[1737354285_RM_02_(1).pdf]]
-- [[1737354293_RM_03_(1).pdf]]
-- [[1737354302_RM_04_(2).pdf]]
-- [[1737354324_RM_05_(1).pdf]]
-- [[1737354333_RM_06_(1).pdf]]
-- [[RM_07_(2).pdf]]
-- [[Numpy_Basics.pdf]]
-- [[Matplotlib_Basics.pdf]]
+- [ ] [[RM_01_(1).pdf]]
+- [ ] [[RM_02_(1).pdf]]
+- [ ] [[RM_03_(1).pdf]]
+- [ ] [[RM_04_(2).pdf]]
+- [ ] [[RM_05_(1).pdf]]
+- [ ] [[RM_06_(1).pdf]]
+- [ ] [[RM_07_(2).pdf]]
+- [ ] [[Numpy_Basics.pdf]]
+- [ ] [[Matplotlib_Basics.pdf]]
+- [ ] [[Pandas_(1)-compressed.pdf]]
+
+
+
+> [!NOTE] RM FlashCard
+> [[RM FlashCard]]
+- [[RM FlashCard Code]]

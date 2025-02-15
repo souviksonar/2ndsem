@@ -4,8 +4,8 @@
 
 
 > [!note] Books
-> - [[Computer Vision - Algorithms and Applications 2nd Edition, Richard Szeliski 1.pdf]]
-> - [[Computer Vision - Algorithms and Applications 2nd Edition, Richard Szeliski 2.pdf]]
+> - [ ] [[Computer Vision - Algorithms and Applications 2nd Edition, Richard Szeliski 1.pdf]]
+> - [ ] [[Computer Vision - Algorithms and Applications 2nd Edition, Richard Szeliski 2.pdf]]
 
 
 > [!NOTE] Notes for Image Processing
@@ -28,43 +28,43 @@
 
 
 > [!NOTE] Unit 1
-> - [[CV-UNIT 1]]
-> - [[Matlab Funcion for Image Operation]]
+> - [ ] [[CV-UNIT 1]]
+> - [ ] [[Matlab Funcion for Image Operation]]
 
 
 > [!NOTE] Unit 2
-> - [[Histogram]]
-> - [[Histogram Equalization]]
-> - [[Filter]]
-> 	- [[Linear Filters]]
-> 	- [[Spatial Filtering]]
-> 	- [[Mean Filter]]
-> 	- [[Median Filter]]
-> 	- [[Gaussian Filter]]
-> - [[Image Restoration]]
-> - [[Standard Image Transforms in Image Processing]]
-> 	- [[Fourier Transformation]]
-> 	- [[Discrete Cosine Transform (DCT)]]
-> 	- [[Image Transforms]]
-> - [[Image Filtering, Multiscaling, and Multi-resolution]]
-> 	- [[Image Pyramid]]
-> 	- [[Gaussian Pyramids]]
-> - [[Morphology Techniques]]
-> - [[Geometric Transformations]]
-> - [[Texture]]
-> - [[Texture Analysis Using Gabor Filters]]
-> - [[Local Binary Patterns (LBP) & Histogram of Oriented Gradient (HoG)]]
-> - [[Statistical Methods of Texture Analysis]]
-> - [[Image Feature Extraction]]
-> - [[Computer Vision - Texture]]
-> - [[Image Representation & Description]]
-> 	- [[chapter11 (1).pdf]]
-> - [[Shape Descriptors - I]]
+> - [x] [[Histogram]]
+> - [x] [[Histogram Equalization]]
+> - [ ] [[Filter]]
+> 	- [x] [[Linear Filters]]
+> 	- [x] [[Spatial Filtering]]
+> 	- [x] [[Mean Filter]]
+> 	- [x] [[Median Filter]]
+> 	- [x] [[Gaussian Filter]]
+> - [ ] [[Image Restoration]]
+> - [ ] [[Standard Image Transforms in Image Processing]]
+> 	- [ ] [[Fourier Transformation]]
+> 	- [ ] [[Discrete Cosine Transform (DCT)]]
+> 	- [ ] [[Image Transforms]]
+> - [ ] [[Image Filtering, Multiscaling, and Multi-resolution]]
+> 	- [ ] [[Image Pyramid]]
+> 	- [ ] [[Gaussian Pyramids]]
+> - [ ] [[Morphology Techniques]]
+> - [ ] [[Geometric Transformations]]
+> - [ ] [[Texture]]
+> - [ ] [[Texture Analysis Using Gabor Filters]]
+> - [ ] [[Local Binary Patterns (LBP) & Histogram of Oriented Gradient (HoG)]]
+> - [ ] [[Statistical Methods of Texture Analysis]]
+> - [ ] [[Image Feature Extraction]]
+> - [ ] [[Computer Vision - Texture]]
+> - [ ] [[Image Representation & Description]]
+> 	- [ ] [[chapter11 (1).pdf]]
+> - [ ] [[Shape Descriptors - I]]
 [[Local Feature Detectors and Descriptors]]
 
 
 > [!NOTE] Transformers
-> - [[CV 2025 Lec6.pdf|Hough Transform]]
+> - [ ] [[CV 2025 Lec6.pdf|Hough Transform]]
 
 
 > [!NOTE] From PDF
@@ -92,7 +92,7 @@
 > 	 - 5,6,10(fig)
 >  - [x] [[Texture.pdf]]
 > 	 - 2-7
->  - [[1904.06554v1.pdf]]
+>  - [ ] [[1904.06554v1.pdf]]
 > 	 - 2(block diagram), 3(fig 3), 5(table 1)
 >  - [x] [[GF.pdf]]
 > 	 - 5-26
@@ -100,12 +100,12 @@
 > 	 - 1-25
 >  - [x] [[lecture_9_2_featureextraction.pdf]]
 > 	 - 1 to 18
-> - [[22-shapeintro.pdf]]
+> - [ ] [[22-shapeintro.pdf]]
 > 	- 1-24
-> - [[Bauer.pdf]]
-> - [[2D-shape-postprint.pdf]]
+> - [ ] [[Bauer.pdf]]
+> - [ ] [[2D-shape-postprint.pdf]]
 > 	- 1 to 24
-> - [[15_features.pdf]]
+> - [ ] [[15_features.pdf]]
 > 	- 6-17
 > - [x] [[binaryshape.pdf]]
 > 	- 1 to 6

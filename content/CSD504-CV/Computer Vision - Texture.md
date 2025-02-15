@@ -2,16 +2,6 @@
 refer: "[[Texture.pdf]]"
 ---
 
-## 1. Introduction and Outlines
-
-
-*   **Finding templates by convolution:** (This topic isn't explicitly detailed in the provided slides, but it's a fundamental concept in image processing and likely a prerequisite.)
-*   **What is Texture:** Defining and understanding texture.
-*   **Co-occurrence matrices for texture:** A classical method for texture analysis.
-*   **Spatial Filtering approach:** Using filters to extract texture features.
-*   **Multiresolution processing, Gaussian Pyramids and Laplacian Pyramids:**  Representing images at multiple scales.
-*   **Gabor filters and oriented pyramids:**  Filters sensitive to specific orientations and frequencies.
-*   **Texture Synthesis:**  Creating new texture images from examples.
 
 ## 2. What is Texture?
 
@@ -73,8 +63,8 @@ The co-occurrence matrix $C_d$ would be:
 
 ```
    0 1 2
-0 [0 1 0]
-1 [3 2 0]
+0 [1 0 3]
+1 [2 0 2]
 2 [0 0 1]
 ```
 * **Normalized Co-occurrence Matrix ($N_d$)**:

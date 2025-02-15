@@ -39,15 +39,24 @@
 > [!danger] Unit 2
 > - [[Primality_Testing_Notes.pdf]]
 > - [[CNS_Inverse_exponentiation.pdf]]
-> - [[Cryptography and Network Security.pdf#page=124|Mathematics of Cryptography]]
-> - [[Cryptography and Network Security.pdf#page=277|Part III: Primes and Related Congruence Equations]]
+> - [[Mathematics of Cryptography.pdf]]
+> - [[Prime testing.pdf]]
+
+
+> [!NOTE] CH 10 [[CNS CH 10.pdf]]
 > - [[Cryptography and Network Security.pdf#page=347|ELLIPTIC CURVE CRYPTOSYSTEMS]]
 > - [[CNS_ECC_Revied_Notes.pdf]]
 > - [[Public_Cryptosystem__Notes_I.pdf]]
+> 	- [[CNS CH 10 FlashCard]]
 
 > [!NOTE] Unit 2 Short Notes
 > - [[Attacks on RSA]]
 > - [[attacks on rsa.pdf]]
+
+
+> [!NOTE] FlashCard
+> - [ ] [[CNS Prime FlashCard]]
+> - [ ] [[CNS Unit 1 Flash Card]]
 
 
 # Flow

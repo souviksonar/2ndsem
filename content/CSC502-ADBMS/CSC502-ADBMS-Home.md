@@ -63,16 +63,16 @@
 ---
 ## Unit 2
 > [!danger] Unit 2
-> - [[2.1 Indexing.pdf]]
-> - [[2.2 Query procesing.pdf]]
-> - [[8. Query Processing.pdf]]
+> - [ ]  [[2.1 Indexing.pdf]]
+> - [ ]  [[2.2 Query procesing.pdf]]
+> - [ ]  [[8. Query Processing.pdf]]
 
 > [!success] Unit 2 Short Notes
-> - [[ADBMS Unit 1 Short Notes]]
-> - [[ADBMS Unit 2.1 Important Term]]
-> - [[Query Processing table]]
-> - [[ADBMS Unit 2 FlashCard]]
-> - [[ADBMS Unit 2.2 FlashCard]]
+> - [ ]  [[ADBMS Unit 1 Short Notes]]
+> - [ ]  [[ADBMS Unit 2.1 Important Term]]
+> - [ ]  [[Query Processing table]]
+> - [ ]  [[ADBMS Unit 2 FlashCard]]
+> - [ ]  [[ADBMS Unit 2.2 FlashCard]]
 
 ---
 ## Unit 3 & 4

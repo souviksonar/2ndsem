@@ -2,11 +2,10 @@
 	"nodes":[
 		{"id":"e121fda0810872d4","type":"file","file":"CSC503-AGT/CSC503-AGT-Home.md","x":-460,"y":-320,"width":400,"height":400},
 		{"id":"614b2f049af4fbac","type":"file","file":"CSC502-ADBMS/CSC502-ADBMS-Home.md","x":-40,"y":-320,"width":400,"height":400},
-		{"id":"2bee0e3b3f67be2a","type":"file","file":"NCSC520-CNS/NCSC520-CNS-Home.md","x":380,"y":-320,"width":400,"height":400},
-		{"id":"91cdf27b2de0c331","type":"file","file":"NCSC511-AGT_Lab/NCSC511-AGT_Lab.md","x":-460,"y":120,"width":400,"height":400},
-		{"id":"f44d378ccde85955","type":"file","file":"NCSC596-RM/NCSC596-RM-Home.md","x":380,"y":120,"width":400,"height":400},
-		{"id":"92f4a82cb5bd907f","type":"file","file":"NCSC510-ADBMS_Lab/NCSC510-ADBMS_Lab-Home.md","x":-40,"y":120,"width":400,"height":400},
-		{"id":"d7deda1e4e381475","type":"file","file":"media/IMG-20250102-WA0001(1).jpg","x":-460,"y":560,"width":1240,"height":613}
+		{"id":"d7deda1e4e381475","type":"file","file":"media/IMG-20250102-WA0001(1).jpg","x":-460,"y":560,"width":1240,"height":613},
+		{"id":"f44d378ccde85955","type":"file","file":"NCSC596-RM/NCSC596-RM-Home.md","x":-460,"y":120,"width":400,"height":400},
+		{"id":"2bee0e3b3f67be2a","type":"file","file":"NCSC520-CNS/NCSC520-CNS-Home.md","x":-40,"y":120,"width":400,"height":400},
+		{"id":"66ae5bb2ad062337","x":421,"y":-320,"width":719,"height":840,"type":"file","file":"media/Screenshot_2025_0215_143528.jpg"}
 	],
 	"edges":[]
 }

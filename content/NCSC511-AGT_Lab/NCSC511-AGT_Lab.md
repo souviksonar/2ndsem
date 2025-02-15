@@ -1,3 +1,3 @@
 - [[lab 1]]
-- [ ] lab 2 assignment (@2025-01-18)
+- [x] lab 2 assignment (@2025-01-18)
 - [ ] 

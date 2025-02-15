@@ -1,6 +1,4 @@
-1.  **Equivalence of Relational Algebra Expressions:**
 
-    $\sigma_{salary < 75000}(\Pi_{salary}(instructor)) \equiv \Pi_{salary}(\sigma_{salary < 75000}(instructor))$
 
 2.  **Basic Cost Estimation:**
 
@@ -31,15 +29,6 @@
 
     Cost = $(h_i + n) * (t_T + t_S)$ (where *n* is the number of matching records)
 
-9. **Conjunction:**
-    $\sigma_{\theta_1 \land \theta_2 \land ... \land \theta_n}(r)$
-
-10. **Disjunction:**
-
-     $\sigma_{\theta_1 \lor \theta_2 \lor ... \lor \theta_n}(r)$
-
-11. **Negation:**
-    $\sigma_{\neg \theta}(r)$
 
 12. **Number of Merge Passes (External Sort-Merge):**
 
@@ -113,105 +102,18 @@
 
     $b_r + b_s$
 
-30. **Complex Joins (Conjunctive)**
 
-     $r \bowtie_{\theta_1 \land \theta_2 \land ... \land \theta_n} s$
 
-31.  **Complex Joins simplification**
 
-       $r \bowtie_{\theta_i} s$
 
-32. **Condition simplification:**
-      $\theta_1 \land ... \land \theta_{i-1} \land \theta_{i+1} \land ... \land \theta_n$
-33. **Complex Joins (Disjunctive)**
+30.  **B+-Tree Properties (Children):**
+	1. Each node that is not a root or a leaf has between $\lceil n/2 \rceil$ and $n$ children.
 
-    $r \bowtie_{\theta_1 \lor \theta_2 \lor ... \lor \theta_n} s$
-34. **Complex Joins expanded**
+31.  **B+-Tree Properties (Leaf Node Values):**
+	1. A leaf node has between $\lceil (n-1)/2 \rceil$ and $n-1$ values.
 
-    $(r \bowtie_{\theta_1} s) \cup (r \bowtie_{\theta_2} s) \cup ... \cup (r \bowtie_{\theta_n} s)$
-35. **Outer Join Notation**
-     $r \rightrightarrows \xleftarrow{} s$
-36. **Non participating tuples**
-    In $r \rightrightarrows \xleftarrow{} s$, non participating tuples are those in $r - \Pi_R(r \bowtie s)$
+32.  **B+-Tree Properties (Root - Non-Leaf):**
+	1. If the root is not a leaf, it has at least 2 children.
 
-37.  **Index Entry Structure:**
-
-    `search-key | pointer` (This isn't a formula, but a representation of structure)
-
-38.  **B+-Tree Properties (Children):**
-
-    Each node that is not a root or a leaf has between $\lceil n/2 \rceil$ and $n$ children.
-
-39.  **B+-Tree Properties (Leaf Node Values):**
-
-    A leaf node has between $\lceil (n-1)/2 \rceil$ and $n-1$ values.
-
-40.  **B+-Tree Properties (Root - Non-Leaf):**
-
-    If the root is not a leaf, it has at least 2 children.
-
-41.  **B+-Tree Properties (Root - Leaf):**
-
-    If the root is a leaf, it can have between 0 and $(n-1)$ values.
-
-42.  **B+-Tree Node Key Ordering:**
-
-    $K_1 < K_2 < K_3 < ... < K_{n-1}$
-
-43.  **Leaf Node Pointer Ordering (L<sub>i</sub> and L<sub>j</sub> are leaf nodes, i < j):**
-
-    $L_i$'s search-key values are less than or equal to $L_j$'s search-key values.
-
-44.  **Non-Leaf Node Pointer Rules (P<sub>1</sub>):**
-
-    All the search-keys in the subtree to which $P_1$ points are less than $K_1$.
-
-45.  **Non-Leaf Node Pointer Rules (P<sub>i</sub>, 2 ≤ i ≤ n-1):**
-
-     All the search-keys in the subtree to which $P_i$ points have values greater than or equal to $K_{i-1}$ and less than $K_i$.
-
-46. **Non-Leaf Node Pointer Rules (P<sub>n</sub>):**
-
-    All the search-keys in the subtree to which $P_n$ points have values greater than or equal to $K_{n-1}$.
-
-47. **B+-Tree Height Bound:**
-
-   If there are K search-key values, the height is no more than $\lceil \log_{\lceil n/2 \rceil}(K) \rceil$
-
-48. **Specific B+-Tree Height Calculation (Example):**
-
-    $log_{50}(1,000,000) = 4$
-
-49. **Non-Unique Key Search Range:**
-    Search for $a_i = v$ becomes a range search on the composite key, with range $(v, -\infty)$ to $(v, +\infty)$.
-
-50. **Splitting Leaf Node, number of values in the orignal node**
-    Place the first $\lceil n/2 \rceil$ in the original node
-51. **Splitting a non-leaf node**
-   Copy $P_1, K_1, ..., K_{\lceil n/2 \rceil -1}, P_{\lceil n/2 \rceil}$ from M back to N.
-   Copy $P_{\lceil n/2 \rceil+1}, K_{\lceil n/2 \rceil +1}, ..., K_n, P_{n+1}$from M to newly allocated node $N'$.
-    Insert $(K_{\lceil n/2 \rceil}, N')$ into parent N.
-
-52. **LSM Tree Level Size Threshold**
-
-  Size threshold for $L_{i+1}$ tree is $k$ times size threshold for $L_i$ tree
-
-53. **Bitmap Index - AND Operation:**
-
-    $100110 \ AND \ 110011 = 100010$
-
-54. **Bitmap Index - OR Operation:**
-
-    $100110 \ OR \ 110011 = 110111$
-
-55. **Bitmap Index - NOT Operation:**
-
-    $NOT \ 100110 = 011001$
-
-56. **Bitmap Index - Example Query:**
-
-    Males with income level L1:  $10010 \ AND \ 10100 = 10000$
-57. **Lexicographic Ordering Condition**
-    $(a_1, a_2) < (b_1, b_2)$ if either $a_1 < b_1$ or $a_1 = b_1$ and $a_2 < b_2$.
-58. **B+-Tree redistribution:**
-     Involving 2 siblings in redistribution results in each node having at least $\lceil 2n/3 \rceil$ entries.
+33.  **B+-Tree Properties (Root - Leaf):**
+	1. If the root is a leaf, it can have between 0 and $(n-1)$ values.
